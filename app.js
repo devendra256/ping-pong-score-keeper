@@ -29,8 +29,8 @@ playerTwoBtn.addEventListener("click", function () {
     playerTwoScore.innerHTML = `${currPlayerTwoScr}`;
     if (currPlayerTwoScr === selectedScore) {
       isGameOver = true;
-      playerOneScore.style.color = "green";
-      playerTwoScore.style.color = "red";
+      playerTwoScore.style.color = "green";
+      playerOneScore.style.color = "red";
       playerOneBtn.disabled = true;
       playerTwoBtn.disabled = true;
     }
